@@ -1,0 +1,49 @@
+body {
+	position: relative;
+	font-family: Century Gothic, sans-serif;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-weight: 100;
+	width: 90%;
+	max-width: 1200px;
+	margin: 25px auto;
+	padding: 5px 7.5px 10px;
+	background: rgba(255,255,255,0.5);
+	box-shadow: 0 2px 2px white inset, 0 -2px 2px white inset;
+}
+
+a {
+	text-decoration: none;
+	color: dodgerblue;
+	text-shadow: -1px -1px 1px black;
+	letter-spacing: 1px;
+	font-size: 20px;
+	transition: color .5s
+}
+
+a:hover {
+	color: white;
+	text-shadow: -2px -2px 2px deepskyblue;
+}
+
+#randomGradient_2,
+#randomGradient_3,
+#randomGradient_4,
+#randomGradient_5 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 15px auto;
+}
+
+@media screen and (min-width: 500px) {
+	#randomGradient_2,
+	#randomGradient_3,
+	#randomGradient_4,
+	#randomGradient_5 {
+		margin-left: 50px;
+	}
+}
