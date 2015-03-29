@@ -3,6 +3,7 @@ body {
 	font-family: Century Gothic, sans-serif;
 	text-align: center;
 	width: 100%;
+	margin: 0;
 }
 
 h1 {
@@ -32,18 +33,26 @@ a:hover {
 #randomGradient_2,
 #randomGradient_3,
 #randomGradient_4,
-#randomGradient_5 {
-	width: 200px;
-	height: 200px;
+#randomGradient_5,
+#randomGradient_6,
+#randomGradient_7,
+#randomGradient_8,
+#randomGradient_9 {
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	margin: 15px auto;
 }
 
 @media screen and (min-width: 500px) {
-	#randomGradient_2,
-	#randomGradient_3,
-	#randomGradient_4,
-	#randomGradient_5 {
+	#orbDiv_L {
 		margin-left: 50px;
+		width: 150px;
+	}
+	
+	#orbDiv_R {
+		position: absolute;
+		top: 150px;
+		right: 50px;
 	}
 }

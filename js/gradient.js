@@ -24,16 +24,18 @@ var v = Math.floor(Math.random() * 255);
 var w = Math.floor(Math.random() * 255);
 var x = Math.floor(Math.random() * 255);
 
-
 setInterval(function(){ randomBackgroundGradient(); }, 100);
 
 function randomBackgroundGradient() {
 	document.getElementById("body").style.background = "repeating-radial-gradient(circle, rgba(" + a + "," + b + "," + c + ", 0.9), rgba(" + d + "," + e + "," + f + ", 1), rgba(" + g + "," + h + "," + i + ", 1), rgba(" + j + "," + k + "," + l + ", 1), rgba(" + m + "," + n + "," + o + ", 0.9), rgba(" + p + "," + q + "," + r + ", 1), rgba(" + s + "," + t + "," + u + ", 1), rgba(" + v + "," + w + "," + x + ", 1))";
-	// document.getElementById("randomGradient").style.background = "repeating-radial-gradient(circle, rgba(" + a + "," + b + "," + c + ", 0.3), rgba(" + d + "," + e + "," + f + ", 0.3), rgba(" + g + "," + h + "," + i + ", 0.3), rgba(" + j + "," + k + "," + l + ", 0.3), rgba(" + m + "," + n + "," + o + ", 0.3), rgba(" + p + "," + q + "," + r + ", 0.3), rgba(" + s + "," + t + "," + u + ", 0.3), rgba(" + v + "," + w + "," + x + ", 0.3))";
 	document.getElementById("randomGradient_2").style.background = "repeating-radial-gradient(circle, rgba(" + a + "," + b + "," + c + ", 0.9), rgba(" + d + "," + e + "," + f + ", 1), rgba(" + g + "," + h + "," + i + ", 1), rgba(" + j + "," + k + "," + l + ", 1), rgba(" + m + "," + n + "," + o + ", 0.9), rgba(" + p + "," + q + "," + r + ", 1), rgba(" + s + "," + t + "," + u + ", 1), rgba(" + v + "," + w + "," + x + ", 1))";
 	document.getElementById("randomGradient_3").style.background = "repeating-radial-gradient(circle, rgba(" + a + "," + b + "," + c + ", 0.9), rgba(" + d + "," + e + "," + f + ", 1), rgba(" + g + "," + h + "," + i + ", 1), rgba(" + j + "," + k + "," + l + ", 1), rgba(" + m + "," + n + "," + o + ", 0.9), rgba(" + p + "," + q + "," + r + ", 1), rgba(" + s + "," + t + "," + u + ", 1), rgba(" + v + "," + w + "," + x + ", 1))";
 	document.getElementById("randomGradient_4").style.background = "repeating-radial-gradient(circle, rgba(" + a + "," + b + "," + c + ", 0.9), rgba(" + d + "," + e + "," + f + ", 1), rgba(" + g + "," + h + "," + i + ", 1), rgba(" + j + "," + k + "," + l + ", 1), rgba(" + m + "," + n + "," + o + ", 0.9), rgba(" + p + "," + q + "," + r + ", 1), rgba(" + s + "," + t + "," + u + ", 1), rgba(" + v + "," + w + "," + x + ", 1))";
 	document.getElementById("randomGradient_5").style.background = "repeating-radial-gradient(circle, rgba(" + a + "," + b + "," + c + ", 0.9), rgba(" + d + "," + e + "," + f + ", 1), rgba(" + g + "," + h + "," + i + ", 1), rgba(" + j + "," + k + "," + l + ", 1), rgba(" + m + "," + n + "," + o + ", 0.9), rgba(" + p + "," + q + "," + r + ", 1), rgba(" + s + "," + t + "," + u + ", 1), rgba(" + v + "," + w + "," + x + ", 1))";
+	document.getElementById("randomGradient_6").style.background = "repeating-radial-gradient(circle, rgba(" + a + "," + b + "," + c + ", 0.9), rgba(" + d + "," + e + "," + f + ", 1), rgba(" + g + "," + h + "," + i + ", 1), rgba(" + j + "," + k + "," + l + ", 1), rgba(" + m + "," + n + "," + o + ", 0.9), rgba(" + p + "," + q + "," + r + ", 1), rgba(" + s + "," + t + "," + u + ", 1), rgba(" + v + "," + w + "," + x + ", 1))";
+	document.getElementById("randomGradient_7").style.background = "repeating-radial-gradient(circle, rgba(" + a + "," + b + "," + c + ", 0.9), rgba(" + d + "," + e + "," + f + ", 1), rgba(" + g + "," + h + "," + i + ", 1), rgba(" + j + "," + k + "," + l + ", 1), rgba(" + m + "," + n + "," + o + ", 0.9), rgba(" + p + "," + q + "," + r + ", 1), rgba(" + s + "," + t + "," + u + ", 1), rgba(" + v + "," + w + "," + x + ", 1))";
+	document.getElementById("randomGradient_8").style.background = "repeating-radial-gradient(circle, rgba(" + a + "," + b + "," + c + ", 0.9), rgba(" + d + "," + e + "," + f + ", 1), rgba(" + g + "," + h + "," + i + ", 1), rgba(" + j + "," + k + "," + l + ", 1), rgba(" + m + "," + n + "," + o + ", 0.9), rgba(" + p + "," + q + "," + r + ", 1), rgba(" + s + "," + t + "," + u + ", 1), rgba(" + v + "," + w + "," + x + ", 1))";
+	document.getElementById("randomGradient_9").style.background = "repeating-radial-gradient(circle, rgba(" + a + "," + b + "," + c + ", 0.9), rgba(" + d + "," + e + "," + f + ", 1), rgba(" + g + "," + h + "," + i + ", 1), rgba(" + j + "," + k + "," + l + ", 1), rgba(" + m + "," + n + "," + o + ", 0.9), rgba(" + p + "," + q + "," + r + ", 1), rgba(" + s + "," + t + "," + u + ", 1), rgba(" + v + "," + w + "," + x + ", 1))";
 	
 	if (a < 255) {
 		a += 1;
@@ -179,18 +181,3 @@ function randomBackgroundGradient() {
 		x = Math.floor(Math.random() * 255);
 	}
 };
-
-
-
-
-
-// alert(a);
-
-// function getRandomNumber() {
-	// Math.floor(Math.random() * 255);
-// };
-
-
-// for (i = 0; i < 5; i++) {
-    // var random = Math.floor(Math.random() * 255);
-// }

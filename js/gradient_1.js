@@ -88,4 +88,13 @@ function randomBackgroundGradient() {
 	} else if (l < 1) {
 		l = Math.floor(Math.random() * 255);
 	}
+	
+	document.getElementById("rgbValue").innerHTML = '<p>RGB (' + a + ', ' + b + ', ' + c + ')<br>RGB (' + d + ', ' + e + ', ' + f + ')<br>RGB (' + g + ', ' + h + ', ' + i + ')<br>RGB (' + j + ', ' + k + ', ' + l + ')</p>';
+	
 };
+
+function getRGB() {
+		document.getElementById("rgbValueNow").innerHTML = '<p>RGB (' + a + ', ' + b + ', ' + c + ')<br>RGB (' + d + ', ' + e + ', ' + f + ')<br>RGB (' + g + ', ' + h + ', ' + i + ')<br>RGB (' + j + ', ' + k + ', ' + l + ')</p>';
+	};
+	
+
