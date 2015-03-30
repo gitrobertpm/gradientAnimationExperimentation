@@ -24,15 +24,25 @@ div {
 }
 
 #rgbValueNowDiv {
-	margin-top: 400px;
+	height: 45px;
+	margin-top: 200px;
+	overflow: hidden;
 }
 
+#rgbValueNowDiv:active, #rgbValueNowDiv:focus, #rgbValueNowDiv:hover {
+	height: 225px;
+}
+
+#rgbTitle,
 button {
 	color: dodgerblue;
 	font-size: 20px;
 	text-shadow: -1px -1px 0px lightblue;
+	width: 90%;
+	margin: auto;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	border: 3px groove black;
 }
 
 #rgbValueDiv {
@@ -40,17 +50,15 @@ button {
 	overflow: hidden;
 }
 
-#rgbValueDiv:active, #rgbValue:focus, #rgbValueDiv:hover {
-	height: 215px;
+#rgbValueDiv:active, #rgbValueDiv:focus, #rgbValueDiv:hover {
+	height: 225px;
 }
 
 #rgbTitle {
-	color: dodgerblue;
-	font-size: 22px;
-	text-shadow: -1px -1px 0px lightblue;
-	margin-top: 7.5px;
+	margin-top: 5px;
 }
 
+#rgbTitle,
 button,
 h1,
 div {
@@ -61,7 +69,7 @@ div {
 a {
 	text-decoration: none;
 	color: dodgerblue;
-	text-shadow: -2px -2px 0px lightblue;
+	text-shadow: -1px -1px 0px lightblue;
 	letter-spacing: 1px;
 	font-size: 15px;
 	transition: color .5s
@@ -71,12 +79,12 @@ a {
 button:active, button:focus, button:hover ,
 a:active, a:focus, a:hover {
 	color: white;
-	text-shadow: -2px -2px 0px deepskyblue;
+	text-shadow: -1px -1px 0px deepskyblue;
 }
 
 @media screen and (min-width: 750px) {
 	body {
-		height: 1000px;
+		height: 700px;
 	}
 
 	h1 {
@@ -90,7 +98,6 @@ a:active, a:focus, a:hover {
 	#rgbValueNowDiv,
 	#rgbValueDiv {
 		position: absolute;
-		top: 750px;
 		margin: auto;
 	}
 	
@@ -100,5 +107,12 @@ a:active, a:focus, a:hover {
 	
 	#rgbValueDiv {
 		right: 50px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#rgbValueNowDiv,
+	#rgbValueDiv {
+		top: 85px;
 	}
 }
