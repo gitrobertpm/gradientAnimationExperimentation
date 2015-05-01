@@ -10,7 +10,7 @@ h1 {
 	font-weight: 100;
 	font-size: 21px;
 	width: 90%;
-	max-width: 1200px;
+	max-width: 450px;
 	margin: 25px auto;
 	padding: 5px 7.5px 10px;
 }
@@ -110,9 +110,9 @@ a:active, a:focus, a:hover {
 	}
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
 	#rgbValueNowDiv,
 	#rgbValueDiv {
-		top: 85px;
+		top: 0px;
 	}
 }

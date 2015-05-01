@@ -94,7 +94,7 @@ function randomBackgroundGradient() {
 };
 
 function getRGB() {
-		document.getElementById("rgbValueNow").innerHTML = '<p>RGB (' + a + ', ' + b + ', ' + c + ')<br>RGB (' + d + ', ' + e + ', ' + f + ')<br>RGB (' + g + ', ' + h + ', ' + i + ')<br>RGB (' + j + ', ' + k + ', ' + l + ')</p>';
-	};
+	document.getElementById("rgbValueNow").innerHTML = '<p>RGB (' + a + ', ' + b + ', ' + c + ')<br>RGB (' + d + ', ' + e + ', ' + f + ')<br>RGB (' + g + ', ' + h + ', ' + i + ')<br>RGB (' + j + ', ' + k + ', ' + l + ')</p>';
+};
 	
 
